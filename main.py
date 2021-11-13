@@ -5,7 +5,6 @@ i=0
 
 with open("doc.txt", "r") as tf:
     lines = tf.read().split(',')
-
 for line in lines:
     print(str(i)+": "+line)
     new=2
